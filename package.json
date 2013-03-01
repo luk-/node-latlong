@@ -1,0 +1,27 @@
+{
+  "name": "latlong",
+  "version": "0.1.0",
+  "description": "create a kdtree from lat/long and return the closest points",
+  "main": "index.js",
+  "dependencies": {
+    "kdt": "0.1.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/st-luke/node-latlong"
+  },
+  "keywords": [
+    "latitude",
+    "longitude",
+    "kdtree",
+    "coordinates"
+  ],
+  "author": "Luke Arduini <luke.arduini@gmail.com>",
+  "license": "MIT"
+}
