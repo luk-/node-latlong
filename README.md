@@ -1,5 +1,5 @@
 # Name
-## latlong
+### latlong
 
 # Synopsis
 Create a simple k-d tree from lat/long and return the closest points.
@@ -25,6 +25,12 @@ var close = latlong(coords, {loc: {lat: 40, long: 50}, max: 50})
 
 console.log(close.reverse())
 ```
+
+# Install:
+`npm install latlong`
+
+# Test:
+`npm test`
 
 ##Motivation:
 I found myself writing this logic inline in my app. It's quite simple, but it was generic enough that I could justify splitting it out.
