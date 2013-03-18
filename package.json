@@ -1,13 +1,13 @@
 {
   "name": "latlong",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "create a kdtree from lat/long and return the closest points",
   "main": "index.js",
   "dependencies": {
     "kdt": "0.1.0"
   },
   "devDependencies": {
-    "tap": "~0.4.0"
+    "tap": "0.4.0"
   },
   "scripts": {
     "test": "node test/test.js"
