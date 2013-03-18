@@ -1,7 +1,7 @@
 # Name
 ### latlong
 
-[![Build Status](https://secure.travis-ci.org/st-luke/latlong.png)](http://travis-ci.org/st-luke/latlong)
+[![Build Status](https://secure.travis-ci.org/st-luke/node-latlong.png)](http://travis-ci.org/st-luke/node-latlong)
 
 # Synopsis
 Create a simple k-d tree from lat/long and return the closest points.
