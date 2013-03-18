@@ -16,9 +16,8 @@ test('fix max to max possible', function (t) {
   t.end()
 })
 
-test('throw error on empty loc key', function (t) {
-  t.throws(function () {
-    var closest = latlong(coords)
-  })
+test('return null on empty loc key', function (t) {
+  var closest = latlong(coords)
+  t.type(closest, 'null')
   t.end()
 })

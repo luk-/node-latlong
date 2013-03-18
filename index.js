@@ -2,8 +2,8 @@ var kdt = require('kdt')
 
 module.exports = function (coords, options) {
 
-  if (!options.loc) {
-    throw new Error('location not provided')
+  if (arguments.length < 2 || !options.loc) {
+    return null
   }
 
   var dimensions = ['lat', 'long']
